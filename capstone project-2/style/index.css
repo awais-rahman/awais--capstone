@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar-list {
+    font-family: "Poppins", sans-serif;
+
+}
+
+.text-family-1 h1 {
+    font-family: "Pacifico", cursive;
+}
+
+.text-family-1 h5 button {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-family-2 {
+    font-family: "Pacifico", cursive;
+}
+
+.font-family-3 h1 {
+    font-family: "Pacifico", cursive;
+}
+
+.text-family-1 p h4 {
+    font-family: "Poppins", sans-serif;
+}
+
+.font-family-4 {
+    font-family: "Pacifico", cursive;
+}
+
+a,
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: #198754;
+    cursor: pointer;
+}
+
+.nav-hover ul li a:hover {
+    color: #198754;
+    cursor: pointer;
+}
+
+.logo-img {
+    width: 15px;
+}
+
+.input-1st {
+    width: 50px;
+}
+
+.bg-img-sum h1 {
+    font-size: 55px;
+}
+
+.bg-img-sum h5 {
+    font-size: 25px;
+}
+
+.bg-img-1st p {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.input-1st {
+    border-radius: 50px;
+}
+
+.bg-img-text h1 {
+    font-size: 65px;
+}
+
+.bg-img-text p {
+    font-size: 25px;
+}
+
+.bg-img-2nd p {
+    font-size: 40px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+
+.bg-img-1st {
+    background-image: url(../images/organic-slide1_2048x.jpg);
+    background-size: cover;
+
+
+}
+
+@media (min-width: 576px) {
+    .bg-img-1st {
+        background-size: 100% 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-img-1st {
+        background-size: 100% 75vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-img-1st {
+        background-size: 100% 100vh;
+    }
+
+    .bg-img-1st {
+        background-image: url("../../images/organic-slide1_2048x.jpg");
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.bg-img-2nd {
+    background-image: url('../../images/img-paralax_2048x.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+@media (min-width: 480px) {
+    .bg-img-2nd {
+        background-size: 100% 50vh;
+    }
+}
+
+@media (min-width: 768px) {
+    .bg-img-2nd {
+        background-size: 100% 75vh;
+    }
+}
+
+@media (min-width: 992px) {
+    .bg-img-2nd {
+        background-size: 100% 100vh;
+    }
+}
